@@ -1,0 +1,21 @@
+{
+    "name": "leoding86/simple-hook",
+    "description": "A simple hook system class.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leo Ding",
+            "email": "leoding86@msn.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "leoding86\\SimpleHook\\": "src/"
+        }
+    }
+}
