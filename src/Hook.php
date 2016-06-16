@@ -29,6 +29,8 @@ class Hook
 
         if (is_string($id)) {
             self::$hooks[$name][$id] = $listener;
+        } else {
+            self::$hooks[$name][] = $listener;
         }
     }
 
